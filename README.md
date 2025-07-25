@@ -27,10 +27,3 @@ Distribuimos música con identidad y pasión, promoviendo talento emergente con 
      ```html
      <form action="mailto:mariosilvadistribution@gmail.com" method="POST" ...>
      ```
-     y reemplazá el correo.
-
-## 🚀 Publicar en GitHub Pages
-
-1. Subí todos los archivos a tu repositorio (por ejemplo: `mariosilvadistribution.github.io`).
-2. Andá a **Settings > Pages** y activá GitHub Pages desde la rama `main`, carpeta `/root`.
-3. Esperá unos segundos y accedé a tu web desde:
