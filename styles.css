@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #111;
+  color: #f1f1f1;
+  scroll-behavior: smooth;
+}
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+.sidebar {
+  width: 200px;
+  background-color: #000;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+.logo {
+  height: 45px;
+  margin-bottom: 40px;
+}
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.sidebar nav a {
+  color: #00bcd4;
+  text-decoration: none;
+  margin: 10px 0;
+  font-weight: bold;
+  text-align: center;
+  transition: color 0.3s;
+}
+.sidebar nav a:hover {
+  color: #fff;
+}
+main {
+  flex-grow: 1;
+  padding: 40px;
+}
+.seccion {
+  max-width: 900px;
+  margin: auto;
+  margin-bottom: 60px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s ease-in-out;
+}
+.seccion.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+}
+form input, form textarea {
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+}
+form button {
+  background-color: #00bcd4;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #009bb0;
+}
+.yt-btn {
+  background-color: red;
+  color: white;
+  padding: 10px 15px;
+  display: inline-block;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+footer {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 14px;
+  color: #aaa;
+}
