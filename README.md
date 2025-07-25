@@ -1,29 +1,30 @@
 # Mario Silva Distribution 🌐🎵
 
-Sitio web oficial del sello discográfico **Mario Silva Distribution**.  
-Distribuimos música con identidad y pasión, promoviendo talento emergente con visión profesional.
+Sitio web oficial del sello discográfico **Mario Silva Distribution**, con un diseño profesional y navegación entre páginas independientes.
 
-![Captura del sitio web](preview.png) <!-- Podés agregar una imagen de tu sitio -->
+🎧 Distribuimos música con identidad y visión profesional.
 
-## 📁 Estructura
+---
 
-- `index.html` – Página principal.
-- `style.css` – Estilos del sitio.
-- `favicon.png` – Ícono del sitio (reemplazable).
-- `logo.png` – Logo oficial del sello.
-- `assets/` – Carpeta para futuras imágenes o lanzamientos.
+## 📂 Estructura del sitio
 
-## 🛠️ Cómo editar
+- `index.html` – Página principal
+- `artistas.html` – Artistas del sello
+- `lanzamientos.html` – Próximos lanzamientos
+- `quienes-somos.html` – Sobre nosotros
+- `contacto.html` – Formulario de contacto y canal de YouTube
+- `style.css` – Estilos oscuros modernos
+- `favicon.png` – Ícono del sitio
 
-1. **Modificar información:**
-   - Editá `index.html` para cambiar texto, redes o artistas.
-   - Actualizá el logo o favicon si lo deseás.
+---
 
-2. **Personalizar colores o estilos:**
-   - Cambiá los estilos en `style.css`.
+## 🛠 Cómo editar
 
-3. **Cambiar el email del formulario de contacto:**
-   - En `index.html`, buscá:
-     ```html
-     <form action="mailto:mariosilvadistribution@gmail.com" method="POST" ...>
-     ```
+### ✅ Cambiar textos o contenido
+- Editá cada archivo `.html` por separado.
+- Usá cualquier editor de texto (como VS Code, Atom, Notepad++) o desde GitHub mismo.
+
+### ✅ Cambiar el correo
+En `contacto.html`, buscá esta línea:
+```html
+<form action="mailto:mariosilvadistribution@gmail.com" ...
